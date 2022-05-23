@@ -1,3 +1,14 @@
+"""
+Learning:
+1. how to use python in the terminal
+2. how to create a variable
+3. what is a string
+4. what are some methods available for string manipulation
+
+"""
+
+
+
 # printing a message
 print('Hello everyone, this is printing in python')
 
@@ -47,3 +58,26 @@ print(full_name)
 favorite_heros = f"I like {super_hero2.title()} and {full_name}, but my favorite is {super_hero1.title()}."
 
 print(favorite_heros)
+
+# dealing with white space in a string
+# .rstrip()
+# .lstrip()
+# .strip()
+
+movie_favorite = ' Guardians of the Galaxy '
+
+# print variable as it was written spaces before, after and in the middle
+print(movie_favorite)
+
+# remove the space before Guardians
+print(movie_favorite.lstrip())
+
+# remove the space after Galaxy
+print(movie_favorite.rstrip())
+
+# remove both spaces
+print(movie_favorite.strip())
+
+# prove that space was removed after Galaxy
+
+print(f"{movie_favorite.strip()},{full_name}")
