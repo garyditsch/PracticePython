@@ -1,6 +1,6 @@
 """
 Learning:
-1. how to use python in the terminal
+1. use python in the terminal
 2. how to create a variable
 3. what is a string
 4. what are some methods available for string manipulation
