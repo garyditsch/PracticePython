@@ -31,4 +31,7 @@ It is up to you.
 2. How to target an item in a list
 3. Methods that can be utilized to manipulate lists: sort(), append(), remove()
 
-
+## Lesson Four: 
+1. Continued lists 
+2. Getting slices of a list
+3. Looping through lists
